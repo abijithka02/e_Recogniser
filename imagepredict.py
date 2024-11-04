@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 from ultralytics import YOLO
 
 
-model = YOLO("runs/train/yolov8_custom6/weights/best.pt")  
+model = YOLO("runs/train/yolov8_custom6/weights/imagepredict.py.pt")  
 
 
 image_path = "3-Button-1200-DPI-USB-Wired-Mouse-Silent-Optical-Gaming-Mouses-For-PC-Laptop-Wholesale-20A_jpg.rf.31dd7b88ef575dd74a2f84b22b8ce0a9.jpg" 
